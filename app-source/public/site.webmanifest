@@ -1,0 +1,17 @@
+{
+  "name": "ÖtükenAI",
+  "short_name": "ÖtükenAI",
+  "description": "Permission-governed, source-traceable AI agent infrastructure built in Türkiye.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#050d18",
+  "theme_color": "#050d18",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
