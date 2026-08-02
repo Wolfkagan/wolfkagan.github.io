@@ -1,8 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ÖtükenAI tamga">
-  <rect width="64" height="64" rx="14" fill="#071321"/>
-  <path d="M32 5 55 18v29L32 59 9 47V18Z" fill="#0b1928" stroke="#d8b56a" stroke-width="2" stroke-linejoin="round"/>
-  <path d="M32 13v37M32 22 21 14m11 8 11-8M32 32 17 23m15 9 15-9M21 50l11-12 11 12" fill="none" stroke="#9ef6ee" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M16 50h32" fill="none" stroke="#d8b56a" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="25" cy="11" r="2" fill="#d8b56a"/>
-  <circle cx="39" cy="11" r="2" fill="#d8b56a"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ÖtükenAI">
+  <defs>
+    <linearGradient id="g" x1="8" y1="8" x2="56" y2="56" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9ef6ee"/>
+      <stop offset="1" stop-color="#58a6ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="#071321"/>
+  <circle cx="32" cy="32" r="19" fill="none" stroke="url(#g)" stroke-width="2"/>
+  <ellipse cx="32" cy="32" rx="25" ry="10" fill="none" stroke="#75e3da" stroke-width="1.5" opacity=".75" transform="rotate(-28 32 32)"/>
+  <circle cx="51" cy="21" r="3" fill="#9ef6ee"/>
+  <circle cx="32" cy="32" r="6" fill="url(#g)"/>
 </svg>
