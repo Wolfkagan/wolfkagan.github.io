@@ -1,18 +1,19 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#07110f">
   <meta name="color-scheme" content="dark">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; form-action 'none'; frame-src 'none'; worker-src 'none'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; media-src 'self'; manifest-src 'self'; upgrade-insecure-requests">
-  <meta name="referrer" content="strict-origin-when-cross-origin">
   <meta name="description" content="ÖtükenAI develops governed, source-traceable agent infrastructure for high-accountability work.">
   <meta name="robots" content="index,follow">
   <link rel="canonical" href="https://otukenai.com/">
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
   <link rel="manifest" href="/site.webmanifest">
-<meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <meta property="og:type" content="website">
   <meta property="og:url" content="https://otukenai.com/">
   <meta property="og:site_name" content="ÖtükenAI">
   <meta property="og:title" content="ÖtükenAI — Governed Intelligence Infrastructure">
@@ -22,7 +23,6 @@
   <meta name="twitter:description" content="Agent infrastructure engineered for traceability, permission control and operational clarity.">
   <title>ÖtükenAI — Governed Intelligence Infrastructure</title>
   <link rel="stylesheet" href="/style.css">
-  <link rel="stylesheet" href="/fonts-local.css">
   <script src="/script.js" defer></script>
 </head>
 <body>
@@ -192,4 +192,3 @@
   </footer>
 </body>
 </html>
-
