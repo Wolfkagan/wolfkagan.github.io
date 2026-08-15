@@ -11,6 +11,13 @@ const allowedDomains = new Map([
   ["www.sitemaps.org", "Standard sitemap XML namespace"],
   ["react.dev", "Framework production error-reference namespace"],
 ]);
+const trackingDomains = new Set([
+  "google-analytics.com",
+  "googletagmanager.com",
+  "segment.io",
+  "hotjar.com",
+  "mixpanel.com",
+]);
 
 const checks = [
   ["Windows absolute path", /[A-Za-z]:\\(?:Users|Windows|Program Files|[A-Za-z0-9_.-]+)\\/i],
@@ -29,9 +36,12 @@ const checks = [
   ["Hardware model", /\b(?:RTX|A100|H100|MI300|Xeon|EPYC)\s*[A-Za-z0-9-]*\b/i],
   ["Prohibited marketing claim", /\b(?:AGI|ASI|production-ready|world(?:'|’)?s first|world(?:'|’)?s most advanced|dünyanın ilk|dünyanın en gelişmiş|rakipsiz|kusursuz|hatasız|kırılamaz|sentient)\b/i],
   ["Internal release label", /\b(?:release|internal)[_-]?(?:candidate|rc)?[_-]?\d{1,4}\b/i],
-  ["Tracking domain", /\b(?:google-analytics\.com|googletagmanager\.com|segment\.io|hotjar\.com|mixpanel\.com)\b/i],
   ["Long hash-like value", /\b[a-f0-9]{40,}\b/i],
 ];
+
+function findTrackingDomain(hostname) {
+  return [...trackingDomains].find((domain) => hostname === domain || hostname.endsWith(`.${domain}`));
+}
 
 async function collect(directory) {
   const entries = await readdir(directory, { withFileTypes: true });
@@ -52,9 +62,11 @@ for (const file of await collect(root)) {
     const match = text.match(pattern);
     if (match) failures.push(`${relative}: ${label}`);
   }
-  for (const match of text.matchAll(/https?:\/\/([^/"'\s<]+)/gi)) {
-    const domain = match[1].toLowerCase().replace(/:\d+$/, "");
-    if (!allowedDomains.has(domain)) failures.push(`${relative}: Unexpected external domain ${domain}`);
+  for (const match of text.matchAll(/https?:\/\/[^/"'\s<]+(?:\/[^"'\s<]*)?/gi)) {
+    const domain = new URL(match[0]).hostname.toLowerCase();
+    const trackingDomain = findTrackingDomain(domain);
+    if (trackingDomain) failures.push(`${relative}: Tracking domain ${trackingDomain}`);
+    else if (!allowedDomains.has(domain)) failures.push(`${relative}: Unexpected external domain ${domain}`);
   }
 }
 
