@@ -1,0 +1,5 @@
+app-source/node_modules/
+site-dist/
+app-source/ssr-dist/
+ssr-dist/
+*.log
