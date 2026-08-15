@@ -1,16 +1,25 @@
-# ÖtükenAI Corporate Website
+# ÖTÜKEN AI Corporate Website
 
-The public website for ÖtükenAI: permission-governed, source-traceable AI agent infrastructure built in Türkiye.
+Public corporate website for **ÖTÜKEN AI** — responsible, traceable and human-centred AI research from Türkiye.
+
+## Public site
+
+- Website: https://otukenai.com
+- Turkish: https://otukenai.com/tr
+- English: https://otukenai.com/en
+- German: https://otukenai.com/de
+- Contact: contact@otukenai.com
+
+Each language includes dedicated Technology, Principles, Trust and About pages. Translation copy is maintained centrally in `app-source/src/content/`.
 
 ## Technology
 
-- React 19
+- React 19 and TypeScript
 - Vite 7
-- Framer Motion
-- Lucide icon system
-- Responsive, accessible single-page interface
-
-Application source lives in `app-source/`. The production build is deployed from the repository root for GitHub Pages compatibility.
+- Server-rendered static output for all 15 localized routes
+- Responsive design system with reduced-motion and keyboard support
+- Route-specific metadata, canonical URLs, `hreflang`, structured data and sitemap
+- Automated translation-parity and public-disclosure audits
 
 ## Local development
 
@@ -20,13 +29,17 @@ npm install
 npm run dev
 ```
 
-## Production build
+## Verification and production build
 
 ```bash
 cd app-source
-npm run build
+npm run verify
 ```
 
-- Website: https://otukenai.com
-- Concept paper: https://otukenai.com/dokumanlar/otukenai-bigg4future-is-fikri.pdf
-- Contact: contact@otukenai.com
+The verification command runs linting, TypeScript checks, translation parity, the production build, the public-disclosure audit and rendered-route tests. Production output is written to `site-dist/`.
+
+GitHub Actions publishes only the verified `site-dist/` artifact to GitHub Pages.
+
+## Public-content policy
+
+The site intentionally excludes credentials, local paths, operational commands, private infrastructure details, unverified performance claims and private documents. See `docs/PUBLIC_CONTENT_POLICY.md` for the publication rules and review checklist.

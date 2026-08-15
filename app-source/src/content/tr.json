@@ -1,0 +1,239 @@
+{
+  "locale": "tr",
+  "meta": {
+    "ogLocale": "tr_TR",
+    "pages": {
+      "home": {
+        "title": "ÖTÜKEN AI — Egemen Yapay Zekâ Sistemleri",
+        "description": "ÖTÜKEN AI; yerel çalışabilirlik, veri egemenliği, doğrulanabilir bilgi ve kontrollü eylem ilkeleri üzerine geliştirilen bağımsız bir yapay zekâ sistemleri girişimidir."
+      },
+      "technology": {
+        "title": "Teknoloji — ÖTÜKEN AI",
+        "description": "ÖTÜKEN AI’nin yerel çalışabilirlik, zaman içinde durum ve kontrollü eylem odağındaki kamusal sistem yaklaşımını keşfedin."
+      },
+      "principles": {
+        "title": "İlkeler — ÖTÜKEN AI",
+        "description": "Katmanlı Sıfır, Dikey Zaman, Kökenini Taşıyan Bilgi ve Katmanlı Yargı ilkelerini inceleyin."
+      },
+      "trust": {
+        "title": "Güven — ÖTÜKEN AI",
+        "description": "ÖTÜKEN AI’nin veri egemenliği, görünür belirsizlik, insan denetimi ve kontrollü kamusal açıklama yaklaşımı."
+      },
+      "about": {
+        "title": "Hakkımızda — ÖTÜKEN AI",
+        "description": "ÖTÜKEN AI’nin bağımsız yapay zekâ sistemleri araştırma ve mühendislik yaklaşımı hakkında bilgi edinin."
+      }
+    }
+  },
+  "nav": {
+    "home": "Ana Sayfa",
+    "technology": "Teknoloji",
+    "principles": "İlkeler",
+    "trust": "Güven",
+    "about": "Hakkımızda"
+  },
+  "ui": {
+    "skip": "Ana içeriğe geç",
+    "openMenu": "Menüyü aç",
+    "closeMenu": "Menüyü kapat",
+    "selectLanguage": "Dil seçin",
+    "publicView": "Kamusal sistem görünümü",
+    "statusLabel": "Aktif geliştirme",
+    "readMore": "Daha fazla bilgi",
+    "contact": "İletişime geçin",
+    "backHome": "Ana sayfaya dön"
+  },
+  "brand": {
+    "name": "ÖTÜKEN AI",
+    "slogan": "İnsanlığın kökü, bilgisayarın zihni.",
+    "secondaryTagline": "Topraktan gelen zekâ, geleceği kuran sistem.",
+    "valueLine": "Daima daha iyisi için. Daima insanlık için."
+  },
+  "shared": {
+    "approach": {
+      "eyebrow": "Temel yaklaşım",
+      "title": "Zekâyı tek bir çıktıya değil, sorumluluklara ayırıyoruz.",
+      "description": "ÖTÜKEN AI; bilginin kaynağını, zaman içindeki durumunu ve eylem yetkisini birbirine karıştırmayan bir sistem yaklaşımı üzerinde geliştiriliyor.",
+      "items": [
+        {
+          "title": "Yerel ve denetlenebilir çalışma",
+          "description": "Sistem bileşenleri, veriyi ve karar akışını dış hizmetlere zorunlu olarak devretmeden çalışabilecek şekilde tasarlanır."
+        },
+        {
+          "title": "Kaynağıyla birlikte yaşayan bilgi",
+          "description": "Bir iddia yalnızca metin değildir. Kaynağı, zamanı, dönüşümü ve güven düzeyiyle birlikte ele alınır."
+        },
+        {
+          "title": "Zaman içinde durum",
+          "description": "Kimlik ile anlık durum aynı şey değildir. Değişim, geçmiş ve belirsizlik ayrı biçimde temsil edilir."
+        },
+        {
+          "title": "Eylemden önce yetki",
+          "description": "Öngörü, öneri, karar, yetkilendirme ve yürütme aynı işlem değildir."
+        },
+        {
+          "title": "Kanıt temelli mühendislik",
+          "description": "İlerleme, yalnızca iddialarla değil; testler, yeniden üretilebilirlik ve doğrulama kapılarıyla değerlendirilir."
+        }
+      ]
+    },
+    "system": {
+      "eyebrow": "Sistem yaklaşımı",
+      "title": "Ayrılmış sorumluluklar. Kontrollü bütünlük.",
+      "description": "Beş yüksek seviyeli alan, sistemin kamusal anlatımını oluşturur.",
+      "notice": "Bu görünüm, ÖTÜKEN AI’nin sorumluluk alanlarını açıklayan kamusal bir soyutlamadır; uygulama mimarisi veya veri akış diyagramı değildir.",
+      "items": [
+        {
+          "title": "Hesaplama ve Model",
+          "description": "Yerel çalışabilirlik, verimlilik ve denetlenebilir yürütme için geliştirilen hesaplama ve model temeli."
+        },
+        {
+          "title": "Bellek ve Durum",
+          "description": "Bilginin, geçmişin, varlıkların, değişimlerin ve belirsizliğin zaman içinde ayrı biçimde temsil edilmesi."
+        },
+        {
+          "title": "Planlama ve Araçlar",
+          "description": "Hedefleri kontrollü adımlara ayıran ve araç etkileşimlerini sınırlandırılmış görevler olarak ele alan katman."
+        },
+        {
+          "title": "Yetki ve Değerlendirme",
+          "description": "Bir çıktının kendiliğinden karar veya eylem yetkisine dönüşmesini engelleyen kontrol ve değerlendirme yaklaşımı."
+        },
+        {
+          "title": "Veri ve Entegrasyon",
+          "description": "Verinin kaynağını, dönüşümünü ve sistemler arası sınırları koruyan bütünleştirme yaklaşımı."
+        }
+      ]
+    },
+    "principleSet": {
+      "eyebrow": "Dört kaynak ilke",
+      "title": "Anlamı, zamanı, kökeni ve yetkiyi ayrı tutan temel ilkeler.",
+      "description": "Bu ilkeler, sistemin belirsizlik ve eylem karşısında nasıl düşünmesi gerektiğine yön verir.",
+      "items": [
+        {
+          "technicalName": "LAYERED ZERO",
+          "title": "Katmanlı Sıfır",
+          "essence": "Değer; yokluk, bilinmeme, gözlemlenmeme veya çatışma ile aynı değildir.",
+          "description": "Bir sistemin ‘sıfır’, ‘yok’, ‘bilinmiyor’, ‘henüz gözlemlenmedi’ ve ‘kaynaklar birbiriyle çatışıyor’ durumlarını tek bir anlama indirmemesi gerekir."
+        },
+        {
+          "technicalName": "VERTICAL TIME",
+          "title": "Dikey Zaman",
+          "essence": "Kimlik, anlık durum değildir; kalıcı varlıklar zaman içindeki değişimleriyle anlaşılır.",
+          "description": "Bir kişi, nesne veya sistem yalnızca mevcut anın kaydından ibaret değildir. Kimlik, durum geçmişi ve değişimler ayrı biçimde korunmalıdır."
+        },
+        {
+          "technicalName": "PCS-DERIVED INFORMATION",
+          "title": "Kökenini Taşıyan Bilgi",
+          "essence": "Bilgi, kaynaksız metin değildir; kökenini, soyunu ve bilgi zamanını taşır.",
+          "description": "Bir iddianın hangi kaynaktan geldiği, hangi dönüşümlerden geçtiği ve hangi zamanda bilinebilir olduğu anlamının bir parçasıdır."
+        },
+        {
+          "technicalName": "LAYERED JUDGMENT",
+          "title": "Katmanlı Yargı",
+          "essence": "Öngörü, öneri, karar, yetkilendirme ve yürütme birbirinden ayrıdır.",
+          "description": "Bir model çıktısı kendi kendini yetkilendirmez. Bilgi üretmek ile karar vermek ve karar vermek ile eyleme geçmek arasında açık sınırlar bulunmalıdır."
+        }
+      ]
+    },
+    "trustSet": {
+      "eyebrow": "Güven yaklaşımı",
+      "title": "Güven, yalnızca sonuçla değil süreçle kurulur.",
+      "description": "ÖTÜKEN AI’de güven; bilginin kaynağını korumak, belirsizliği görünür tutmak, karar ile eylemi ayırmak ve insan denetimini sistem sınırlarının bir parçası olarak ele almak anlamına gelir.",
+      "items": [
+        {
+          "title": "Veri egemenliği",
+          "description": "Verinin nerede işlendiği, nereye aktarıldığı ve hangi sistem sınırları içinde kaldığı tasarımın temel bir parçasıdır."
+        },
+        {
+          "title": "Bilinmeyeni görünür tutmak",
+          "description": "Sistem, eksik bilgi karşısında kesinlik görüntüsü üretmek yerine bilinmeyeni ve çatışmayı açıkça temsil etmeyi hedefler."
+        },
+        {
+          "title": "Otomatik yetki yok",
+          "description": "Bir tahmin veya öneri, kendiliğinden karar ya da eylem yetkisine dönüşmez."
+        },
+        {
+          "title": "Kontrollü kamusal açıklama",
+          "description": "Kamuya açık iletişim yaklaşımı ve değerleri açıklar; güvenliği, fikrî mülkiyeti veya sistem bütünlüğünü zayıflatabilecek uygulama ayrıntılarını yayımlamaz."
+        }
+      ]
+    },
+    "status": {
+      "eyebrow": "Aktif geliştirme",
+      "title": "Araştırma ve mühendislik devam ediyor",
+      "description": "ÖTÜKEN AI’nin temel sistemleri aktif olarak geliştiriliyor, doğrulanıyor ve birlikte çalışabilirlik açısından değerlendiriliyor. Kamuya açık ürün veya hizmet duyuruları, gerekli doğrulama aşamalarının ardından yapılacaktır."
+    },
+    "contact": {
+      "eyebrow": "Kurumsal iletişim",
+      "title": "Araştırma ve iş birliği için konuşalım.",
+      "description": "Araştırma, kurumsal iş birliği ve stratejik ortaklık görüşmeleri için.",
+      "warning": "Lütfen ilk iletişiminizde kişisel veri, erişim bilgisi, kaynak kod veya gizli teknik belge göndermeyin.",
+      "action": "İletişime geçin"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Egemen yapay zekâ sistemleri araştırması",
+      "title": "İnsanlığın kökü, bilgisayarın zihni.",
+      "description": "ÖTÜKEN AI; yerel çalışabilirlik, veri egemenliği, doğrulanabilir bilgi ve kontrollü eylem ilkeleri üzerine geliştirilen bağımsız bir yapay zekâ sistemleri girişimidir.",
+      "support": "Tek bir model değil; hesaplama, bellek, dünya durumu, planlama, araç kullanımı, yetkilendirme ve değerlendirmeyi birbirinden ayrılmış sorumluluk katmanlarında birleştiren bir sistem yaklaşımı.",
+      "primaryAction": "Teknolojiyi Keşfet",
+      "secondaryAction": "İlkelerimizi İncele",
+      "trustLine": "Yerel çalışma · Doğrulanabilir bilgi · İnsan denetimi"
+    },
+    "trustFeature": {
+      "eyebrow": "İnsan denetimi",
+      "title": "Çıktı, kendi başına yetki değildir.",
+      "description": "ÖTÜKEN AI; öneri, karar, yetkilendirme ve yürütme arasındaki sınırları korumayı sistem tasarımının temel bir parçası olarak ele alır.",
+      "action": "Güven yaklaşımımız"
+    }
+  },
+  "technology": {
+    "eyebrow": "Teknoloji",
+    "title": "Tek bir modelden daha geniş bir sistem yaklaşımı.",
+    "description": "ÖTÜKEN AI; hesaplamayı, belleği, zaman içindeki dünya durumunu, planlamayı, araç kullanımını ve yetki sınırlarını ayrılmış sorumluluk alanları olarak ele alır.",
+    "approachTitle": "Tasarım kararlarına yön veren yaklaşım",
+    "layersTitle": "Kamusal sorumluluk katmanları",
+    "closingTitle": "Doğrulanabilirlik, mimariden önce bir mühendislik disiplinidir.",
+    "closingDescription": "Kamuya açık anlatım, yaklaşımı görünür kılar; dahili bileşenleri, protokolleri veya uygulama sırasını yayımlamaz."
+  },
+  "principles": {
+    "eyebrow": "İlkeler",
+    "title": "Bilginin ne olduğunu ve ne olmadığını açık tutmak.",
+    "description": "Dört kaynak ilke; yokluk ile bilinmeyeni, kimlik ile anlık durumu, iddia ile kökenini ve öneri ile eylem yetkisini birbirinden ayırır.",
+    "closingTitle": "Doğru sınırlar, daha güvenilir sistem davranışı oluşturur.",
+    "closingDescription": "İlkeler, teknik bir ürün iddiası değil; araştırma ve mühendislik kararlarına yön veren bir çerçevedir."
+  },
+  "trust": {
+    "eyebrow": "Güven",
+    "title": "Güven, yalnızca sonuçla değil süreçle kurulur.",
+    "description": "ÖTÜKEN AI’de güven; bilginin kaynağını korumak, belirsizliği görünür tutmak, karar ile eylemi ayırmak ve insan denetimini sistem sınırlarının bir parçası olarak ele almak anlamına gelir.",
+    "disclosureEyebrow": "Sorumlu şeffaflık",
+    "disclosureTitle": "Açıklık ile sistem bütünlüğü arasında kontrollü bir sınır.",
+    "disclosureDescription": "Kamusal iletişim, araştırma yaklaşımını ve değerleri açıklar. Güvenliği, fikrî mülkiyeti veya tersine mühendisliği etkileyebilecek uygulama ayrıntıları insan incelemesi olmadan yayımlanmaz."
+  },
+  "about": {
+    "eyebrow": "Hakkımızda",
+    "title": "Daha büyük bir modelden fazlası.",
+    "description": "ÖTÜKEN AI’nin amacı yalnızca daha fazla parametreye veya daha yüksek ham performansa sahip bir model üretmek değildir. Amaç; bilgiyi, zamanı, belirsizliği, kaynağı ve yetkiyi daha doğru temsil eden, yerel çalışabilirliği ve insan denetimini koruyan bütüncül bir yapay zekâ sistemi geliştirmektir.",
+    "researchEyebrow": "Araştırma durumu",
+    "researchTitle": "Aktif araştırma ve mühendislik geliştirme aşaması.",
+    "researchDescription": "ÖTÜKEN AI aktif araştırma ve mühendislik geliştirme aşamasındadır. Genel kullanıma açılma tarihi, gerekli doğrulama ve entegrasyon aşamaları tamamlandıktan sonra duyurulacaktır.",
+    "purposeEyebrow": "Amacımız",
+    "purposeTitle": "Topraktan gelen zekâ, geleceği kuran sistem.",
+    "purposeDescription": "Kültürel köklerden ilham alan; dünyaya açık, ölçülü ve insan odaklı bir teknoloji yaklaşımı."
+  },
+  "footer": {
+    "privacy": "Cookie kullanmayan, takip yapmayan ve kişisel veri toplamayan kamusal deneyim.",
+    "navigation": "Navigasyon",
+    "languages": "Diller",
+    "status": "Aktif araştırma ve mühendislik geliştirme",
+    "rights": "Tüm hakları saklıdır."
+  },
+  "notFound": {
+    "eyebrow": "Sayfa bulunamadı",
+    "title": "Aradığınız sayfa burada değil.",
+    "description": "Bağlantı değişmiş veya sayfa kaldırılmış olabilir. Ana sayfadan devam edebilirsiniz."
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "locale": "en",
+  "meta": {
+    "ogLocale": "en_US",
+    "pages": {
+      "home": {
+        "title": "ÖTÜKEN AI — Sovereign AI Systems",
+        "description": "ÖTÜKEN AI is an independent AI systems initiative focused on local operability, data sovereignty, verifiable information and controlled action."
+      },
+      "technology": {
+        "title": "Technology — ÖTÜKEN AI",
+        "description": "Explore ÖTÜKEN AI’s public systems approach to local operability, state across time and controlled action."
+      },
+      "principles": {
+        "title": "Principles — ÖTÜKEN AI",
+        "description": "Explore the principles of Layered Zero, Vertical Time, Provenance-Bearing Information and Layered Judgment."
+      },
+      "trust": {
+        "title": "Trust — ÖTÜKEN AI",
+        "description": "ÖTÜKEN AI’s approach to data sovereignty, visible uncertainty, human oversight and controlled public disclosure."
+      },
+      "about": {
+        "title": "About — ÖTÜKEN AI",
+        "description": "Learn about ÖTÜKEN AI’s independent AI systems research and engineering approach."
+      }
+    }
+  },
+  "nav": {
+    "home": "Home",
+    "technology": "Technology",
+    "principles": "Principles",
+    "trust": "Trust",
+    "about": "About"
+  },
+  "ui": {
+    "skip": "Skip to main content",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "selectLanguage": "Select language",
+    "publicView": "Public system view",
+    "statusLabel": "Active development",
+    "readMore": "Learn more",
+    "contact": "Get in touch",
+    "backHome": "Return home"
+  },
+  "brand": {
+    "name": "ÖTÜKEN AI",
+    "slogan": "Humanity’s roots. The mind of the machine.",
+    "secondaryTagline": "Intelligence with deep roots. A system built for the future.",
+    "valueLine": "Always for better. Always for humanity."
+  },
+  "shared": {
+    "approach": {
+      "eyebrow": "Core approach",
+      "title": "Intelligence separated into responsibilities, not reduced to a single output.",
+      "description": "ÖTÜKEN AI is being developed around a systems approach that keeps information origin, state across time and authority to act distinct.",
+      "items": [
+        {
+          "title": "Local and inspectable operation",
+          "description": "System components are designed to operate without making external services a mandatory destination for data or decision flows."
+        },
+        {
+          "title": "Information that retains its origin",
+          "description": "A claim is more than text. It is considered together with its source, time, transformation history and confidence."
+        },
+        {
+          "title": "State across time",
+          "description": "Identity is not the same as instantaneous state. Change, history and uncertainty are represented separately."
+        },
+        {
+          "title": "Authority before action",
+          "description": "Prediction, proposal, decision, authorization and execution are not the same operation."
+        },
+        {
+          "title": "Evidence-led engineering",
+          "description": "Progress is assessed through testing, reproducibility and verification gates rather than claims alone."
+        }
+      ]
+    },
+    "system": {
+      "eyebrow": "Systems approach",
+      "title": "Separated responsibilities. Controlled integrity.",
+      "description": "Five high-level areas form the public view of the system.",
+      "notice": "This view is a public abstraction of ÖTÜKEN AI’s responsibility areas, not an implementation architecture or data-flow diagram.",
+      "items": [
+        {
+          "title": "Computation and Model",
+          "description": "The computation and model foundation designed for local operability, efficiency and inspectable execution."
+        },
+        {
+          "title": "Memory and State",
+          "description": "Representation of information, history, entities, change and uncertainty as distinct concepts across time."
+        },
+        {
+          "title": "Planning and Tools",
+          "description": "The layer that decomposes goals into controlled steps and treats tool interactions as bounded tasks."
+        },
+        {
+          "title": "Authority and Evaluation",
+          "description": "The control and evaluation approach that prevents an output from automatically becoming a decision or authority to act."
+        },
+        {
+          "title": "Data and Integration",
+          "description": "The integration approach that preserves data origin, transformation history and boundaries between systems."
+        }
+      ]
+    },
+    "principleSet": {
+      "eyebrow": "Four source principles",
+      "title": "Principles that keep meaning, time, origin and authority distinct.",
+      "description": "These principles guide how the system should reason in the presence of uncertainty and action.",
+      "items": [
+        {
+          "technicalName": "LAYERED ZERO",
+          "title": "Layered Zero",
+          "essence": "A value is not the same as absence, unknown, unobserved or conflict.",
+          "description": "A system should not collapse zero, absence, unknown, not yet observed and conflicting evidence into a single meaning."
+        },
+        {
+          "technicalName": "VERTICAL TIME",
+          "title": "Vertical Time",
+          "essence": "Identity is not an instantaneous state; persistent entities are understood through change over time.",
+          "description": "A person, object or system is more than its current snapshot. Identity, state history and changes should remain distinct."
+        },
+        {
+          "technicalName": "PCS-DERIVED INFORMATION",
+          "title": "Provenance-Bearing Information",
+          "essence": "Information is not source-less text; it retains provenance, lineage and knowledge time.",
+          "description": "Where a claim came from, how it was transformed and when it could have been known are part of its meaning."
+        },
+        {
+          "technicalName": "LAYERED JUDGMENT",
+          "title": "Layered Judgment",
+          "essence": "Prediction, proposal, decision, authorization and execution are separate.",
+          "description": "A model output does not authorize itself. Clear boundaries must exist between producing information, making a decision and taking action."
+        }
+      ]
+    },
+    "trustSet": {
+      "eyebrow": "Trust approach",
+      "title": "Trust is built through process, not output alone.",
+      "description": "At ÖTÜKEN AI, trust means retaining information origin, keeping uncertainty visible, separating decision from action and treating human oversight as part of the system boundary.",
+      "items": [
+        {
+          "title": "Data sovereignty",
+          "description": "Where data is processed, where it is transferred and within which system boundaries it remains are fundamental design considerations."
+        },
+        {
+          "title": "Keeping the unknown visible",
+          "description": "Rather than presenting false certainty in the presence of incomplete information, the system is designed to represent unknowns and conflicts explicitly."
+        },
+        {
+          "title": "No automatic authority",
+          "description": "A prediction or proposal does not automatically become a decision or authority to act."
+        },
+        {
+          "title": "Controlled public disclosure",
+          "description": "Public communication explains the approach and values without publishing implementation details that could weaken security, intellectual property or system integrity."
+        }
+      ]
+    },
+    "status": {
+      "eyebrow": "Active development",
+      "title": "Research and engineering in progress",
+      "description": "ÖTÜKEN AI’s foundational systems are under active development, verification and interoperability assessment. Public product or service announcements will follow the required verification stages."
+    },
+    "contact": {
+      "eyebrow": "Institutional contact",
+      "title": "Let’s talk about research and collaboration.",
+      "description": "For research, institutional collaboration and strategic partnership discussions.",
+      "warning": "Please do not include personal data, credentials, source code or confidential technical documents in your initial message.",
+      "action": "Get in touch"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Sovereign AI systems research",
+      "title": "Humanity’s roots. The mind of the machine.",
+      "description": "ÖTÜKEN AI is an independent AI systems initiative being developed around local operability, data sovereignty, verifiable information and controlled action.",
+      "support": "Not just a single model, but a systems approach that separates and connects computation, memory, world state, planning, tool use, authorization and evaluation.",
+      "primaryAction": "Explore the Technology",
+      "secondaryAction": "Read Our Principles",
+      "trustLine": "Local operation · Verifiable information · Human oversight"
+    },
+    "trustFeature": {
+      "eyebrow": "Human oversight",
+      "title": "An output is not authority on its own.",
+      "description": "ÖTÜKEN AI treats the boundaries between proposal, decision, authorization and execution as a foundational part of systems design.",
+      "action": "Our approach to trust"
+    }
+  },
+  "technology": {
+    "eyebrow": "Technology",
+    "title": "A systems approach broader than a single model.",
+    "description": "ÖTÜKEN AI treats computation, memory, world state across time, planning, tool use and authority boundaries as separated areas of responsibility.",
+    "approachTitle": "The approach guiding design decisions",
+    "layersTitle": "Public responsibility layers",
+    "closingTitle": "Verifiability is an engineering discipline before it is an architecture.",
+    "closingDescription": "Public communication makes the approach visible without publishing internal components, protocols or implementation order."
+  },
+  "principles": {
+    "eyebrow": "Principles",
+    "title": "Keeping clear what information is—and what it is not.",
+    "description": "Four source principles separate absence from the unknown, identity from current state, a claim from its origin and a proposal from authority to act.",
+    "closingTitle": "Clear boundaries support more dependable system behavior.",
+    "closingDescription": "The principles are not a technical product claim; they are a framework guiding research and engineering decisions."
+  },
+  "trust": {
+    "eyebrow": "Trust",
+    "title": "Trust is built through process, not output alone.",
+    "description": "At ÖTÜKEN AI, trust means retaining information origin, keeping uncertainty visible, separating decision from action and treating human oversight as part of the system boundary.",
+    "disclosureEyebrow": "Responsible transparency",
+    "disclosureTitle": "A controlled boundary between openness and system integrity.",
+    "disclosureDescription": "Public communication explains the research approach and values. Implementation details that could affect security, intellectual property or reverse engineering are not published without human review."
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "More than a larger model.",
+    "description": "The purpose of ÖTÜKEN AI is not merely to build a model with more parameters or greater raw performance. The aim is to develop an integrated AI system that represents information, time, uncertainty, provenance and authority more accurately while preserving local operability and human oversight.",
+    "researchEyebrow": "Research status",
+    "researchTitle": "Active research and engineering development.",
+    "researchDescription": "ÖTÜKEN AI is in active research and engineering development. Public availability will be announced after the required verification and integration stages have been completed.",
+    "purposeEyebrow": "Our purpose",
+    "purposeTitle": "Intelligence with deep roots. A system built for the future.",
+    "purposeDescription": "A technology approach inspired by cultural roots, open to the world, measured in tone and centered on people."
+  },
+  "footer": {
+    "privacy": "A public experience that uses no cookies, performs no tracking and collects no personal data.",
+    "navigation": "Navigation",
+    "languages": "Languages",
+    "status": "Active research and engineering development",
+    "rights": "All rights reserved."
+  },
+  "notFound": {
+    "eyebrow": "Page not found",
+    "title": "The page you’re looking for is not here.",
+    "description": "The link may have changed or the page may have been removed. You can continue from the home page."
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "locale": "de",
+  "meta": {
+    "ogLocale": "de_DE",
+    "pages": {
+      "home": {
+        "title": "ÖTÜKEN AI — Souveräne KI-Systeme",
+        "description": "ÖTÜKEN AI ist eine unabhängige Initiative für KI-Systeme mit Fokus auf lokalen Betrieb, Datensouveränität, überprüfbare Informationen und kontrolliertes Handeln."
+      },
+      "technology": {
+        "title": "Technologie — ÖTÜKEN AI",
+        "description": "Entdecken Sie den öffentlichen Systemansatz von ÖTÜKEN AI für lokalen Betrieb, Zustand im Zeitverlauf und kontrolliertes Handeln."
+      },
+      "principles": {
+        "title": "Prinzipien — ÖTÜKEN AI",
+        "description": "Entdecken Sie die Prinzipien Geschichtete Null, Vertikale Zeit, Information mit Herkunft und Geschichtetes Urteil."
+      },
+      "trust": {
+        "title": "Vertrauen — ÖTÜKEN AI",
+        "description": "Der Ansatz von ÖTÜKEN AI zu Datensouveränität, sichtbarer Unsicherheit, menschlicher Aufsicht und kontrollierter öffentlicher Kommunikation."
+      },
+      "about": {
+        "title": "Über uns — ÖTÜKEN AI",
+        "description": "Erfahren Sie mehr über den unabhängigen Forschungs- und Entwicklungsansatz von ÖTÜKEN AI für KI-Systeme."
+      }
+    }
+  },
+  "nav": {
+    "home": "Startseite",
+    "technology": "Technologie",
+    "principles": "Prinzipien",
+    "trust": "Vertrauen",
+    "about": "Über uns"
+  },
+  "ui": {
+    "skip": "Zum Hauptinhalt springen",
+    "openMenu": "Menü öffnen",
+    "closeMenu": "Menü schließen",
+    "selectLanguage": "Sprache auswählen",
+    "publicView": "Öffentliche Systemübersicht",
+    "statusLabel": "Aktive Entwicklung",
+    "readMore": "Mehr erfahren",
+    "contact": "Kontakt aufnehmen",
+    "backHome": "Zur Startseite"
+  },
+  "brand": {
+    "name": "ÖTÜKEN AI",
+    "slogan": "Die Wurzeln der Menschheit. Der Geist der Maschine.",
+    "secondaryTagline": "Intelligenz mit tiefen Wurzeln. Ein System für die Zukunft.",
+    "valueLine": "Immer für das Bessere. Immer für die Menschheit."
+  },
+  "shared": {
+    "approach": {
+      "eyebrow": "Grundansatz",
+      "title": "Intelligenz wird in Verantwortungsbereiche gegliedert, nicht auf eine Ausgabe reduziert.",
+      "description": "ÖTÜKEN AI wird als System entwickelt, das Informationsherkunft, Zustand im Zeitverlauf und Handlungsvollmacht klar voneinander trennt.",
+      "items": [
+        {
+          "title": "Lokaler und überprüfbarer Betrieb",
+          "description": "Systemkomponenten werden so konzipiert, dass Daten und Entscheidungsabläufe nicht zwingend an externe Dienste übertragen werden müssen."
+        },
+        {
+          "title": "Information mit nachvollziehbarer Herkunft",
+          "description": "Eine Aussage ist mehr als Text. Sie wird gemeinsam mit ihrer Quelle, ihrem Zeitpunkt, ihrer Verarbeitungsgeschichte und ihrer Vertrauensstufe betrachtet."
+        },
+        {
+          "title": "Zustand im Zeitverlauf",
+          "description": "Identität ist nicht dasselbe wie ein momentaner Zustand. Veränderung, Verlauf und Unsicherheit werden getrennt dargestellt."
+        },
+        {
+          "title": "Autorisierung vor Ausführung",
+          "description": "Prognose, Vorschlag, Entscheidung, Autorisierung und Ausführung sind nicht derselbe Vorgang."
+        },
+        {
+          "title": "Evidenzorientierte Entwicklung",
+          "description": "Fortschritt wird nicht allein durch Behauptungen, sondern durch Tests, Reproduzierbarkeit und Verifikationsschritte bewertet."
+        }
+      ]
+    },
+    "system": {
+      "eyebrow": "Systemansatz",
+      "title": "Getrennte Verantwortungen. Kontrollierte Integrität.",
+      "description": "Fünf übergeordnete Bereiche bilden die öffentliche Systemübersicht.",
+      "notice": "Diese Darstellung ist eine öffentliche Abstraktion der Verantwortungsbereiche von ÖTÜKEN AI und kein Implementierungs- oder Datenflussdiagramm.",
+      "items": [
+        {
+          "title": "Rechenleistung und Modell",
+          "description": "Die Rechen- und Modellgrundlage für lokalen Betrieb, Effizienz und überprüfbare Ausführung."
+        },
+        {
+          "title": "Gedächtnis und Zustand",
+          "description": "Getrennte Darstellung von Information, Verlauf, Entitäten, Veränderung und Unsicherheit über die Zeit."
+        },
+        {
+          "title": "Planung und Werkzeuge",
+          "description": "Die Ebene, die Ziele in kontrollierte Schritte zerlegt und Werkzeuginteraktionen als begrenzte Aufgaben behandelt."
+        },
+        {
+          "title": "Autorisierung und Bewertung",
+          "description": "Der Kontroll- und Bewertungsansatz, der verhindert, dass eine Ausgabe automatisch zu einer Entscheidung oder Handlungsvollmacht wird."
+        },
+        {
+          "title": "Daten und Integration",
+          "description": "Der Integrationsansatz, der Datenherkunft, Verarbeitungsgeschichte und Systemgrenzen bewahrt."
+        }
+      ]
+    },
+    "principleSet": {
+      "eyebrow": "Vier Grundprinzipien",
+      "title": "Prinzipien, die Bedeutung, Zeit, Herkunft und Autorisierung getrennt halten.",
+      "description": "Diese Prinzipien bestimmen, wie das System mit Unsicherheit und Handlungen umgehen soll.",
+      "items": [
+        {
+          "technicalName": "LAYERED ZERO",
+          "title": "Geschichtete Null",
+          "essence": "Ein Wert ist nicht dasselbe wie Abwesenheit, Unbekanntheit, Nichtbeobachtung oder Widerspruch.",
+          "description": "Ein System sollte Null, Abwesenheit, Unbekanntheit, noch nicht erfolgte Beobachtung und widersprüchliche Evidenz nicht auf dieselbe Bedeutung reduzieren."
+        },
+        {
+          "technicalName": "VERTICAL TIME",
+          "title": "Vertikale Zeit",
+          "essence": "Identität ist kein momentaner Zustand; beständige Entitäten werden durch ihre Veränderungen im Zeitverlauf verstanden.",
+          "description": "Eine Person, ein Objekt oder ein System ist mehr als eine Momentaufnahme. Identität, Zustandsverlauf und Veränderungen müssen getrennt erhalten bleiben."
+        },
+        {
+          "technicalName": "PCS-DERIVED INFORMATION",
+          "title": "Information mit Herkunft",
+          "essence": "Information ist kein quellenloser Text; sie bewahrt Herkunft, Verarbeitungslinie und Wissenszeit.",
+          "description": "Woher eine Aussage stammt, wie sie verarbeitet wurde und zu welchem Zeitpunkt sie bekannt sein konnte, gehört zu ihrer Bedeutung."
+        },
+        {
+          "technicalName": "LAYERED JUDGMENT",
+          "title": "Geschichtetes Urteil",
+          "essence": "Prognose, Vorschlag, Entscheidung, Autorisierung und Ausführung sind voneinander getrennt.",
+          "description": "Eine Modellausgabe autorisiert sich nicht selbst. Zwischen Informationsgewinn, Entscheidung und Ausführung müssen klare Grenzen bestehen."
+        }
+      ]
+    },
+    "trustSet": {
+      "eyebrow": "Vertrauensansatz",
+      "title": "Vertrauen entsteht durch den Prozess, nicht allein durch das Ergebnis.",
+      "description": "Bei ÖTÜKEN AI bedeutet Vertrauen, die Herkunft von Informationen zu bewahren, Unsicherheit sichtbar zu halten, Entscheidung und Handlung zu trennen und menschliche Aufsicht als Teil der Systemgrenze zu behandeln.",
+      "items": [
+        {
+          "title": "Datensouveränität",
+          "description": "Wo Daten verarbeitet und übertragen werden und innerhalb welcher Systemgrenzen sie verbleiben, gehört zu den grundlegenden Gestaltungsfragen."
+        },
+        {
+          "title": "Unbekanntes sichtbar halten",
+          "description": "Statt bei unvollständigen Informationen falsche Gewissheit zu erzeugen, soll das System Unbekanntes und Widersprüche ausdrücklich darstellen."
+        },
+        {
+          "title": "Keine automatische Autorisierung",
+          "description": "Eine Prognose oder ein Vorschlag wird nicht automatisch zu einer Entscheidung oder Handlungsvollmacht."
+        },
+        {
+          "title": "Kontrollierte öffentliche Kommunikation",
+          "description": "Die öffentliche Kommunikation erläutert Ansatz und Werte, ohne Implementierungsdetails offenzulegen, die Sicherheit, geistiges Eigentum oder Systemintegrität schwächen könnten."
+        }
+      ]
+    },
+    "status": {
+      "eyebrow": "Aktive Entwicklung",
+      "title": "Forschung und Entwicklung laufen",
+      "description": "Die grundlegenden Systeme von ÖTÜKEN AI werden aktiv entwickelt, verifiziert und auf ihre Interoperabilität geprüft. Öffentliche Produkt- oder Dienstankündigungen erfolgen nach Abschluss der erforderlichen Verifikationsstufen."
+    },
+    "contact": {
+      "eyebrow": "Institutioneller Kontakt",
+      "title": "Sprechen wir über Forschung und Zusammenarbeit.",
+      "description": "Für Forschung, institutionelle Zusammenarbeit und Gespräche über strategische Partnerschaften.",
+      "warning": "Bitte senden Sie in Ihrer ersten Nachricht keine personenbezogenen Daten, Zugangsdaten, Quellcodes oder vertraulichen technischen Dokumente.",
+      "action": "Kontakt aufnehmen"
+    }
+  },
+  "home": {
+    "hero": {
+      "eyebrow": "Forschung an souveränen KI-Systemen",
+      "title": "Die Wurzeln der Menschheit. Der Geist der Maschine.",
+      "description": "ÖTÜKEN AI ist eine unabhängige Initiative für KI-Systeme, die auf lokale Betriebsfähigkeit, Datensouveränität, überprüfbare Informationen und kontrolliertes Handeln ausgerichtet ist.",
+      "support": "Nicht nur ein einzelnes Modell, sondern ein Systemansatz, der Rechenleistung, Gedächtnis, Weltzustand, Planung, Werkzeugnutzung, Autorisierung und Bewertung klar voneinander trennt und kontrolliert verbindet.",
+      "primaryAction": "Technologie entdecken",
+      "secondaryAction": "Unsere Prinzipien",
+      "trustLine": "Lokaler Betrieb · Überprüfbare Information · Menschliche Aufsicht"
+    },
+    "trustFeature": {
+      "eyebrow": "Menschliche Aufsicht",
+      "title": "Eine Ausgabe ist nicht von selbst autorisiert.",
+      "description": "ÖTÜKEN AI behandelt die Grenzen zwischen Vorschlag, Entscheidung, Autorisierung und Ausführung als grundlegenden Bestandteil des Systemdesigns.",
+      "action": "Unser Vertrauensansatz"
+    }
+  },
+  "technology": {
+    "eyebrow": "Technologie",
+    "title": "Ein Systemansatz, der über ein einzelnes Modell hinausgeht.",
+    "description": "ÖTÜKEN AI behandelt Rechenleistung, Gedächtnis, Weltzustand im Zeitverlauf, Planung, Werkzeugnutzung und Autorisierungsgrenzen als getrennte Verantwortungsbereiche.",
+    "approachTitle": "Der Ansatz hinter den Gestaltungsentscheidungen",
+    "layersTitle": "Öffentliche Verantwortungsbereiche",
+    "closingTitle": "Überprüfbarkeit ist eine Entwicklungsdisziplin, bevor sie Architektur ist.",
+    "closingDescription": "Die öffentliche Kommunikation macht den Ansatz sichtbar, ohne interne Komponenten, Protokolle oder Implementierungsreihenfolgen offenzulegen."
+  },
+  "principles": {
+    "eyebrow": "Prinzipien",
+    "title": "Klar halten, was Information ist — und was nicht.",
+    "description": "Vier Grundprinzipien trennen Abwesenheit von Unbekanntheit, Identität vom momentanen Zustand, eine Aussage von ihrer Herkunft und einen Vorschlag von der Handlungsvollmacht.",
+    "closingTitle": "Klare Grenzen fördern verlässlicheres Systemverhalten.",
+    "closingDescription": "Die Prinzipien sind keine technische Produktbehauptung, sondern ein Rahmen für Forschungs- und Entwicklungsentscheidungen."
+  },
+  "trust": {
+    "eyebrow": "Vertrauen",
+    "title": "Vertrauen entsteht durch den Prozess, nicht allein durch das Ergebnis.",
+    "description": "Bei ÖTÜKEN AI bedeutet Vertrauen, die Herkunft von Informationen zu bewahren, Unsicherheit sichtbar zu halten, Entscheidung und Handlung zu trennen und menschliche Aufsicht als Teil der Systemgrenze zu behandeln.",
+    "disclosureEyebrow": "Verantwortungsvolle Transparenz",
+    "disclosureTitle": "Eine kontrollierte Grenze zwischen Offenheit und Systemintegrität.",
+    "disclosureDescription": "Die öffentliche Kommunikation erläutert Forschungsansatz und Werte. Implementierungsdetails, die Sicherheit, geistiges Eigentum oder Reverse Engineering betreffen könnten, werden nicht ohne menschliche Prüfung veröffentlicht."
+  },
+  "about": {
+    "eyebrow": "Über uns",
+    "title": "Mehr als nur ein größeres Modell.",
+    "description": "Das Ziel von ÖTÜKEN AI besteht nicht lediglich darin, ein Modell mit mehr Parametern oder höherer Rohleistung zu entwickeln. Angestrebt wird ein integriertes KI-System, das Information, Zeit, Unsicherheit, Herkunft und Autorisierung genauer darstellt und zugleich lokalen Betrieb sowie menschliche Aufsicht wahrt.",
+    "researchEyebrow": "Forschungsstand",
+    "researchTitle": "Aktive Forschungs- und Entwicklungsarbeit.",
+    "researchDescription": "ÖTÜKEN AI befindet sich in aktiver Forschungs- und Entwicklungsarbeit. Eine öffentliche Verfügbarkeit wird nach Abschluss der erforderlichen Verifikations- und Integrationsstufen bekannt gegeben.",
+    "purposeEyebrow": "Unser Ziel",
+    "purposeTitle": "Intelligenz mit tiefen Wurzeln. Ein System für die Zukunft.",
+    "purposeDescription": "Ein von kulturellen Wurzeln inspirierter, weltoffener, maßvoller und menschenzentrierter Technologieansatz."
+  },
+  "footer": {
+    "privacy": "Ein öffentliches Erlebnis ohne Cookies, Tracking oder Erfassung personenbezogener Daten.",
+    "navigation": "Navigation",
+    "languages": "Sprachen",
+    "status": "Aktive Forschungs- und Entwicklungsarbeit",
+    "rights": "Alle Rechte vorbehalten."
+  },
+  "notFound": {
+    "eyebrow": "Seite nicht gefunden",
+    "title": "Die gesuchte Seite ist nicht verfügbar.",
+    "description": "Der Link wurde möglicherweise geändert oder die Seite entfernt. Sie können von der Startseite aus fortfahren."
+  }
+}
