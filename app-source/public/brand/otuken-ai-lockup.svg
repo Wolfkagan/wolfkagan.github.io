@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 430 96" role="img" aria-labelledby="title description" data-brand-mark="otuken-ai-sigil-v1">
+  <title id="title">ÖTÜKEN AI</title>
+  <desc id="description">ÖTÜKEN AI symbol and horizontal wordmark.</desc>
+  <g transform="translate(8 8) scale(1.25)">
+    <circle cx="32" cy="35" r="22.5" fill="#B58A52" fill-opacity=".035" stroke="#B58A52" stroke-width="1.75"/>
+    <path d="M20 23h8l4 7 4-7h8M32 29v24M32 40 22 50M32 40l10 10" fill="none" stroke="#D1AD78" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#D1AD78">
+      <circle cx="26" cy="6.5" r="2.25"/><circle cx="38" cy="6.5" r="2.25"/>
+    </g>
+    <path d="M32 30l4 4.5-4 4.5-4-4.5Z" fill="#69AAA4" stroke="#090B0C" stroke-width="1.35" stroke-linejoin="round"/>
+  </g>
+  <text x="108" y="59" fill="#F1EFE8" font-family="Arial, Helvetica, sans-serif" font-size="30" font-weight="700" letter-spacing="7">ÖTÜKEN <tspan fill="#D1AD78">AI</tspan></text>
+</svg>

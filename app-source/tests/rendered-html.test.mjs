@@ -25,6 +25,7 @@ for (const locale of locales) {
       assert.match(html, new RegExp(`<link rel="canonical" href="https://otukenai\\.com/${route}"`));
       assert.match(html, /<main id="main">/);
       assert.match(html, /<a class="skip-link" href="#main">/);
+      assert.match(html, /data-brand-mark="otuken-ai-sigil-v1"/);
       assert.match(html, /"@type":"Organization"/);
       assert.match(html, /"@type":"WebSite"/);
       assert.doesNotMatch(html, /href=""|href="javascript:/i);
@@ -79,6 +80,10 @@ test("production CSS includes responsive, focus and reduced-motion safeguards", 
 
 test("security policy and search-engine files ship with the public artifact", async () => {
   const headers = await readFile(path.join(outputRoot, "_headers"), "utf8");
+  const favicon = await readFile(path.join(outputRoot, "favicon.svg"), "utf8");
+  const brandSymbol = await readFile(path.join(outputRoot, "brand", "otuken-ai-symbol.svg"), "utf8");
+  const manifest = JSON.parse(await readFile(path.join(outputRoot, "site.webmanifest"), "utf8"));
+  const socialImage = await readFile(path.join(outputRoot, "og.png"));
   const robots = await readFile(path.join(outputRoot, "robots.txt"), "utf8");
   const sitemap = await readFile(path.join(outputRoot, "sitemap.xml"), "utf8");
   assert.match(headers, /Content-Security-Policy:/);
@@ -86,6 +91,13 @@ test("security policy and search-engine files ship with the public artifact", as
   assert.match(headers, /Permissions-Policy:/);
   assert.match(headers, /X-Content-Type-Options: nosniff/);
   assert.match(headers, /Strict-Transport-Security:/);
+  assert.match(favicon, /data-brand-mark="otuken-ai-sigil-v1"/);
+  assert.match(brandSymbol, /data-brand-mark="otuken-ai-sigil-v1"/);
+  assert.deepEqual(manifest.icons.map((icon) => icon.src), ["/favicon.svg", "/icon-192.png", "/icon-512.png"]);
+  assert.ok(socialImage.byteLength < 300_000, "social sharing image should remain optimized");
+  for (const asset of ["favicon-32x32.png", "apple-touch-icon.png", "icon-192.png", "icon-512.png"]) {
+    assert.ok((await readFile(path.join(outputRoot, asset))).byteLength > 0, `${asset} should ship with the public artifact`);
+  }
   assert.match(robots, /Sitemap: https:\/\/otukenai\.com\/sitemap\.xml/);
   assert.equal((sitemap.match(/<url>/g) ?? []).length, 15);
 });

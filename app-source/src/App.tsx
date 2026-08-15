@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { ArrowRight, ShieldCheck } from "lucide-react";
 import { DecorativeNetwork } from "./components/DecorativeNetwork";
+import { BrandEmblem } from "./components/Brand";
 import { SiteFooter } from "./components/SiteFooter";
 import { SiteHeader } from "./components/SiteHeader";
 import {
@@ -145,7 +146,7 @@ function AboutPage({ dictionary }: { dictionary: Dictionary }) {
       <PageHero eyebrow={page.eyebrow} title={page.title} description={page.description} marker="04" />
       <section className="section about-purpose-section">
         <div className="container about-purpose-grid">
-          <div className="about-principle" aria-hidden="true"><span>Ö</span><i /><i /></div>
+          <BrandEmblem className="about-principle" />
           <div>
             <span className="eyebrow"><i />{page.purposeEyebrow}</span>
             <h2>{page.purposeTitle}</h2>

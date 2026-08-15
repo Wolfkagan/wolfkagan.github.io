@@ -3,7 +3,7 @@ import { fileURLToPath } from "node:url";
 import path from "node:path";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..", "..", "site-dist");
-const textExtensions = new Set([".html", ".js", ".css", ".json", ".xml", ".txt", ".webmanifest", ""]);
+const textExtensions = new Set([".html", ".js", ".css", ".json", ".svg", ".xml", ".txt", ".webmanifest", ""]);
 const allowedDomains = new Map([
   ["otukenai.com", "Canonical public site origin"],
   ["schema.org", "Structured-data vocabulary namespace"],

@@ -12,6 +12,8 @@ Public corporate website for **ÖTÜKEN AI** — responsible, traceable and huma
 
 Each language includes dedicated Technology, Principles, Trust and About pages. Translation copy is maintained centrally in `app-source/src/content/`.
 
+The vector brand system lives in `app-source/public/brand/`. The in-product mark, favicon, install icons and social sharing image all use the same Ö-shaped rooted-network sigil.
+
 ## Technology
 
 - React 19 and TypeScript

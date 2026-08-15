@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title description" data-brand-mark="otuken-ai-sigil-v1">
+  <title id="title">ÖTÜKEN AI — İnsanlığın kökü, bilgisayarın zihni.</title>
+  <desc id="description">ÖTÜKEN AI social sharing image with the rooted computational network symbol.</desc>
+  <defs>
+    <radialGradient id="core-glow" cx="31%" cy="50%" r="55%">
+      <stop offset="0" stop-color="#69AAA4" stop-opacity=".15"/>
+      <stop offset=".5" stop-color="#162526" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#090B0C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" x2="1">
+      <stop stop-color="#D1AD78"/><stop offset="1" stop-color="#69AAA4" stop-opacity=".15"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="#090B0C"/>
+  <rect width="1200" height="630" fill="url(#core-glow)"/>
+  <circle cx="292" cy="315" r="214" fill="none" stroke="#B58A52" stroke-opacity=".1"/>
+  <circle cx="292" cy="315" r="166" fill="none" stroke="#69AAA4" stroke-opacity=".16" stroke-dasharray="3 8"/>
+  <g transform="translate(132 155) scale(5)">
+    <circle cx="32" cy="35" r="22.5" fill="#B58A52" fill-opacity=".035" stroke="#B58A52" stroke-width="1.4"/>
+    <path d="M20 23h8l4 7 4-7h8M32 29v24M32 40 22 50M32 40l10 10" fill="none" stroke="#D1AD78" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <g fill="#D1AD78">
+      <circle cx="26" cy="6.5" r="2.25"/><circle cx="38" cy="6.5" r="2.25"/>
+    </g>
+    <path d="M32 30l4 4.5-4 4.5-4-4.5Z" fill="#69AAA4" stroke="#090B0C" stroke-width="1.1" stroke-linejoin="round"/>
+  </g>
+  <text x="570" y="218" fill="#F1EFE8" font-family="Arial, Helvetica, sans-serif" font-size="50" font-weight="700" letter-spacing="9">ÖTÜKEN <tspan fill="#D1AD78">AI</tspan></text>
+  <rect x="570" y="252" width="480" height="2" fill="url(#rule)"/>
+  <text x="570" y="328" fill="#F1EFE8" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="400">İnsanlığın kökü,</text>
+  <text x="570" y="382" fill="#F1EFE8" font-family="Arial, Helvetica, sans-serif" font-size="42" font-weight="400">bilgisayarın zihni.</text>
+  <text x="570" y="453" fill="#98A3A1" font-family="Arial, Helvetica, sans-serif" font-size="16" letter-spacing="3">EGEMEN YAPAY ZEKÂ SİSTEMLERİ</text>
+  <text x="570" y="501" fill="#69AAA4" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="2">YEREL ÇALIŞMA  ·  DOĞRULANABİLİR BİLGİ  ·  İNSAN DENETİMİ</text>
+  <text x="72" y="574" fill="#66706F" font-family="Arial, Helvetica, sans-serif" font-size="13" letter-spacing="2">OTUKENAI.COM</text>
+</svg>
