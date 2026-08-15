@@ -1,5 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="ÖTÜKEN AI" data-brand-mark="otuken-ai-sigil-v1">
-  <rect width="64" height="64" rx="14" fill="#090B0C"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title description" data-brand-mark="otuken-ai-sigil-v1">
+  <title id="title">ÖTÜKEN AI symbol</title>
+  <desc id="description">A circular Ö-shaped boundary containing a rooted computational network and a teal verification core.</desc>
   <circle cx="32" cy="35" r="22.5" fill="#B58A52" fill-opacity=".035" stroke="#B58A52" stroke-width="1.75"/>
   <path d="M20 23h8l4 7 4-7h8M32 29v24M32 40 22 50M32 40l10 10" fill="none" stroke="#D1AD78" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"/>
   <g fill="#D1AD78">

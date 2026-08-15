@@ -106,9 +106,13 @@
   }
   .header-inner { min-height: 84px; display: grid; grid-template-columns: 1fr auto 1fr; align-items: center; gap: 34px; }
   .brand { min-height: 44px; display: inline-flex; align-items: center; gap: 12px; width: max-content; text-decoration: none; }
-  .brand-mark { width: 38px; height: 38px; display: grid; place-items: center; border: 1px solid rgba(209, 173, 120, .35); border-radius: 50%; background: rgba(181, 138, 82, .06); }
-  .brand-mark svg { width: 28px; height: 28px; fill: none; stroke: var(--copper-light); stroke-width: 1.35; stroke-linecap: round; stroke-linejoin: round; }
-  .brand-mark .mark-dot { fill: var(--teal-light); stroke: none; }
+  .brand-mark { width: 40px; height: 40px; display: grid; flex: 0 0 auto; place-items: center; }
+  .brand-symbol { width: 100%; height: 100%; display: block; overflow: visible; }
+  .brand-symbol-boundary { fill: rgba(181,138,82,.035); stroke: var(--copper); stroke-width: 1.75; }
+  .brand-symbol-network { fill: none; stroke: var(--copper-light); stroke-width: 2.1; stroke-linecap: round; stroke-linejoin: round; }
+  .brand-symbol-nodes { fill: var(--copper-light); stroke: none; }
+  .brand-symbol-core { fill: var(--teal-light); stroke: var(--background); stroke-width: 1.35; }
+  .brand:hover .brand-symbol-boundary { stroke: var(--copper-light); }
   .brand-name { font-size: 14px; font-weight: 680; letter-spacing: .14em; }
   .brand-name b { color: var(--copper-light); font-weight: 680; }
   .primary-nav, .language-nav { display: flex; align-items: center; }
@@ -281,10 +285,15 @@
 
   .about-purpose-section { border-bottom: 1px solid var(--border-soft); background: var(--surface); }
   .about-purpose-grid { display: grid; grid-template-columns: minmax(280px, .75fr) minmax(0, 1.25fr); align-items: center; gap: clamp(50px, 9vw, 150px); }
-  .about-principle { position: relative; aspect-ratio: 1; display: grid; place-items: center; border: 1px solid var(--border); border-radius: 50%; }
-  .about-principle span { color: var(--copper-light); font-family: Georgia, serif; font-size: clamp(90px, 12vw, 170px); }
-  .about-principle i { position: absolute; inset: 14%; border: 1px dashed rgba(105,170,164,.25); border-radius: 50%; }
-  .about-principle i:last-child { inset: -7%; border-color: rgba(181,138,82,.12); }
+  .brand-emblem { position: relative; aspect-ratio: 1; display: grid; place-items: center; isolation: isolate; }
+  .brand-emblem::before { position: absolute; inset: 0; z-index: -1; border-radius: 50%; content: ""; background: radial-gradient(circle, rgba(105,170,164,.075), transparent 62%); }
+  .brand-emblem-ring { position: absolute; border-radius: 50%; pointer-events: none; }
+  .brand-emblem-ring-outer { inset: 0; border: 1px solid rgba(181,138,82,.18); }
+  .brand-emblem-ring-inner { inset: 14%; border: 1px dashed rgba(105,170,164,.25); }
+  .brand-emblem-symbol { width: 62%; height: 62%; filter: drop-shadow(0 0 26px rgba(105,170,164,.08)); }
+  .brand-emblem-symbol .brand-symbol-boundary { stroke-width: 1.35; }
+  .brand-emblem-symbol .brand-symbol-network { stroke-width: 1.7; }
+  .about-principle { width: min(100%, 470px); }
   .research-section { border-bottom: 1px solid var(--border-soft); }
   .research-grid { display: grid; grid-template-columns: minmax(260px, .65fr) minmax(0, 1.35fr); align-items: start; gap: clamp(50px, 9vw, 150px); }
   .status-chip { width: max-content; display: inline-flex; align-items: center; gap: 9px; color: var(--text-secondary); font-size: 9px; line-height: 1.5; letter-spacing: .12em; text-transform: uppercase; }
